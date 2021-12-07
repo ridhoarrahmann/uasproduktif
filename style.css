@@ -1,0 +1,169 @@
+.navbar .navbar-brand img {
+    width: 51px;
+    height: 51px;
+}
+
+
+/* .navbar {
+    position: relative;
+} */
+
+.navbar .navbar-brand span {
+    font-weight: bold;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.navbar .navbar-nav {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.jumbotron {
+    background-image: url(img/Jumbotron.jpg);
+    background-size: cover;
+    height: 560px;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.1)), url(img/Jumbotron.jpg);
+}
+
+.jumbotron h1 {
+    font-size: 55px;
+    color: white;
+}
+
+.jumbotron h1 span {
+    font-weight: bold;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron p {
+    font-size: 30px;
+    color: white;
+}
+
+.profil,
+.sejarah,
+.galeri,
+.contact {
+    margin-top: 45px;
+}
+
+.profil,
+.sejarah,
+.galeri,
+.contact,
+.jumbotron,
+.navbar,
+.footer {
+    width: 100%;
+}
+
+.profil .sejarah {
+    padding: 20px;
+}
+
+.profil .sejarah h3,
+.profil .misi h3,
+.profil .visi h3,
+.galeri h3,
+.contact h3 {
+    text-align: center;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.profil .sejarah p {
+    text-align: center;
+}
+
+.visi-misi {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.profil,
+.visi {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profil ol {
+    padding: 0;
+    width: 100%;
+}
+
+.profil li {
+    width: 100%;
+}
+
+.profil .visi p {
+    text-align: center;
+}
+
+.profil .misi {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+}
+
+
+/* .galeri {
+    margin-top: 60px;
+} */
+
+.galeri .carousel {
+    width: 80%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.galeri .carousel img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+/* .contact .contenr {
+    display: flex;
+    justify-content: center;
+} */
+
+.contact .logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.contact .content {
+    margin-top: 40px;
+}
+
+.contact .logo {
+    display: flex;
+    justify-content: end;
+}
+
+.contact .details {
+    justify-content: start;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.footer h4 {
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    font-weight: lighter;
+}
